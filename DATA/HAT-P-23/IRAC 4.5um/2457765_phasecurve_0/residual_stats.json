@@ -1,0 +1,14 @@
+{
+    "name": "HAT-P-23",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.114257,
+    "exp time [sec]": 1.9681,
+    "n observations": 60710,
+    "length of observations [day]": 1.4856,
+    "photon_noise_factor_transit": 266.1654,
+    "photon_noise_factor_timeseries": 1.2708,
+    "photon_noise_factor_timeseries_raw": 1.3776,
+    "average_photons_per_image": 12438.7,
+    "residual_stdev": 0.0113946,
+    "raw_stdev": 0.0123522
+}
