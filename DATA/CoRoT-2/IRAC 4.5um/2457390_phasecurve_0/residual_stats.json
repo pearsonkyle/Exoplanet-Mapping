@@ -1,0 +1,14 @@
+{
+    "name": "CoRoT-2",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.114837,
+    "exp time [sec]": 1.9681,
+    "n observations": 82516,
+    "length of observations [day]": 2.0197,
+    "photon_noise_factor_transit": 118.4399,
+    "photon_noise_factor_timeseries": 1.2347,
+    "photon_noise_factor_timeseries_raw": 1.3426,
+    "average_photons_per_image": 19403.5,
+    "residual_stdev": 0.008864,
+    "raw_stdev": 0.0096382
+}
