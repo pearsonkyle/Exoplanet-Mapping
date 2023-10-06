@@ -1,0 +1,14 @@
+{
+    "name": "WASP-18",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 0.445448,
+    "exp time [sec]": 0.3936,
+    "n observations": 230847,
+    "length of observations [day]": 1.1902,
+    "photon_noise_factor_transit": 321.293,
+    "photon_noise_factor_timeseries": 1.1964,
+    "photon_noise_factor_timeseries_raw": 3.7527,
+    "average_photons_per_image": 48907.5,
+    "residual_stdev": 0.0054097,
+    "raw_stdev": 0.0169689
+}
