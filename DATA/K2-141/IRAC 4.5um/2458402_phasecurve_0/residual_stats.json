@@ -1,0 +1,14 @@
+{
+    "name": "K2-141",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.220089,
+    "exp time [sec]": 1.9681,
+    "n observations": 27288,
+    "length of observations [day]": 0.7012,
+    "photon_noise_factor_transit": 8915.9237,
+    "photon_noise_factor_timeseries": 1.2068,
+    "photon_noise_factor_timeseries_raw": 1.2885,
+    "average_photons_per_image": 118409.3,
+    "residual_stdev": 0.0035071,
+    "raw_stdev": 0.0037446
+}
