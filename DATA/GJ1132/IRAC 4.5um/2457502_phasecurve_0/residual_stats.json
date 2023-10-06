@@ -1,0 +1,14 @@
+{
+    "name": "GJ1132",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.403651,
+    "exp time [sec]": 1.9681,
+    "n observations": 105630,
+    "length of observations [day]": 2.9386,
+    "photon_noise_factor_transit": 1481.5545,
+    "photon_noise_factor_timeseries": 1.1851,
+    "photon_noise_factor_timeseries_raw": 1.5784,
+    "average_photons_per_image": 159225.1,
+    "residual_stdev": 0.0029699,
+    "raw_stdev": 0.0039557
+}
