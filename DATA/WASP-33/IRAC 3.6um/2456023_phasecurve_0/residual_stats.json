@@ -1,0 +1,14 @@
+{
+    "name": "WASP-33",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 0.445834,
+    "exp time [sec]": 0.3936,
+    "n observations": 297297,
+    "length of observations [day]": 1.5341,
+    "photon_noise_factor_transit": 204.2513,
+    "photon_noise_factor_timeseries": 1.1585,
+    "photon_noise_factor_timeseries_raw": 2.6776,
+    "average_photons_per_image": 85742.6,
+    "residual_stdev": 0.0039563,
+    "raw_stdev": 0.0091443
+}
