@@ -1,0 +1,14 @@
+{
+    "name": "HD149026",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 0.451131,
+    "exp time [sec]": 0.3936,
+    "n observations": 645593,
+    "length of observations [day]": 3.3709,
+    "photon_noise_factor_transit": 812.6092,
+    "photon_noise_factor_timeseries": 1.174,
+    "photon_noise_factor_timeseries_raw": 5.7599,
+    "average_photons_per_image": 157867.1,
+    "residual_stdev": 0.0029548,
+    "raw_stdev": 0.0144966
+}
