@@ -1,0 +1,14 @@
+{
+    "name": "WASP-121",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.093667,
+    "exp time [sec]": 1.9681,
+    "n observations": 66283,
+    "length of observations [day]": 1.6062,
+    "photon_noise_factor_transit": 225.5355,
+    "photon_noise_factor_timeseries": 1.1953,
+    "photon_noise_factor_timeseries_raw": 2.0541,
+    "average_photons_per_image": 45577.5,
+    "residual_stdev": 0.0055991,
+    "raw_stdev": 0.0096217
+}
