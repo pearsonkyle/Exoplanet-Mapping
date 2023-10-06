@@ -1,0 +1,5 @@
+# Ignore pickles
+lmfit.pkl
+photometry.pkl
+photometry_*.pkl
+*DS_STORE
