@@ -1,0 +1,14 @@
+{
+    "name": "WASP-140",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.119165,
+    "exp time [sec]": 1.9681,
+    "n observations": 101085,
+    "length of observations [day]": 2.4793,
+    "photon_noise_factor_transit": 444.0136,
+    "photon_noise_factor_timeseries": 1.1804,
+    "photon_noise_factor_timeseries_raw": 1.9825,
+    "average_photons_per_image": 56199.4,
+    "residual_stdev": 0.0049794,
+    "raw_stdev": 0.0083627
+}

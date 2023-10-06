@@ -1,0 +1,14 @@
+{
+    "name": "WASP-76",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 1.069227,
+    "exp time [sec]": 1.9681,
+    "n observations": 172181,
+    "length of observations [day]": 2.1308,
+    "photon_noise_factor_transit": 523.3338,
+    "photon_noise_factor_timeseries": 1.1411,
+    "photon_noise_factor_timeseries_raw": 2.85,
+    "average_photons_per_image": 132476.1,
+    "residual_stdev": 0.0031352,
+    "raw_stdev": 0.0078302
+}

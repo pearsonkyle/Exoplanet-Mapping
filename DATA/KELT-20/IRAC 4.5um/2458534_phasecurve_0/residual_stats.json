@@ -1,0 +1,14 @@
+{
+    "name": "KELT-20",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 0.465761,
+    "exp time [sec]": 0.3935,
+    "n observations": 720315,
+    "length of observations [day]": 3.883,
+    "photon_noise_factor_transit": 458.8585,
+    "photon_noise_factor_timeseries": 1.1457,
+    "photon_noise_factor_timeseries_raw": 3.1635,
+    "average_photons_per_image": 52781.5,
+    "residual_stdev": 0.0049868,
+    "raw_stdev": 0.0137699
+}

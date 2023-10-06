@@ -1,0 +1,14 @@
+{
+    "name": "WASP-95",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.133811,
+    "exp time [sec]": 1.9681,
+    "n observations": 100138,
+    "length of observations [day]": 2.4731,
+    "photon_noise_factor_transit": 309.9482,
+    "photon_noise_factor_timeseries": 1.1992,
+    "photon_noise_factor_timeseries_raw": 1.6388,
+    "average_photons_per_image": 97969.5,
+    "residual_stdev": 0.0038312,
+    "raw_stdev": 0.0052359
+}

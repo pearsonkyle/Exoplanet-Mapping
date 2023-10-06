@@ -1,0 +1,14 @@
+{
+    "name": "KELT-14",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 2.118931,
+    "exp time [sec]": 1.9682,
+    "n observations": 80284,
+    "length of observations [day]": 1.9689,
+    "photon_noise_factor_transit": 1164.6195,
+    "photon_noise_factor_timeseries": 1.1874,
+    "photon_noise_factor_timeseries_raw": 2.7076,
+    "average_photons_per_image": 73315.2,
+    "residual_stdev": 0.0043854,
+    "raw_stdev": 0.0099995
+}

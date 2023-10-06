@@ -1,0 +1,14 @@
+{
+    "name": "WASP-52",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.11723,
+    "exp time [sec]": 1.9681,
+    "n observations": 81824,
+    "length of observations [day]": 2.0051,
+    "photon_noise_factor_transit": 682.4672,
+    "photon_noise_factor_timeseries": 1.2114,
+    "photon_noise_factor_timeseries_raw": 2.2406,
+    "average_photons_per_image": 23244.1,
+    "residual_stdev": 0.0079456,
+    "raw_stdev": 0.0146961
+}
