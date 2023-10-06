@@ -1,0 +1,14 @@
+{
+    "name": "TrES-3",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.128199,
+    "exp time [sec]": 1.9681,
+    "n observations": 62833,
+    "length of observations [day]": 1.5477,
+    "photon_noise_factor_transit": 105.6436,
+    "photon_noise_factor_timeseries": 1.2577,
+    "photon_noise_factor_timeseries_raw": 1.3276,
+    "average_photons_per_image": 14772.1,
+    "residual_stdev": 0.0103478,
+    "raw_stdev": 0.010923
+}
