@@ -1,0 +1,14 @@
+{
+    "name": "WASP-43",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 2.163276,
+    "exp time [sec]": 1.9682,
+    "n observations": 41822,
+    "length of observations [day]": 1.0471,
+    "photon_noise_factor_transit": 105.4345,
+    "photon_noise_factor_timeseries": 1.1977,
+    "photon_noise_factor_timeseries_raw": 2.6306,
+    "average_photons_per_image": 92194.6,
+    "residual_stdev": 0.0039444,
+    "raw_stdev": 0.0086637
+}
