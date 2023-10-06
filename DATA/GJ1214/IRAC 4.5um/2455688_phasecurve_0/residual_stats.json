@@ -1,0 +1,14 @@
+{
+    "name": "GJ1214",
+    "filter": "IRAC 4.5um",
+    "cadence [sec]": 2.219114,
+    "exp time [sec]": 1.9681,
+    "n observations": 184055,
+    "length of observations [day]": 4.7273,
+    "photon_noise_factor_transit": 197.9635,
+    "photon_noise_factor_timeseries": 1.1881,
+    "photon_noise_factor_timeseries_raw": 2.9397,
+    "average_photons_per_image": 107504.7,
+    "residual_stdev": 0.0036235,
+    "raw_stdev": 0.0089657
+}
