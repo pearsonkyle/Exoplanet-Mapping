@@ -1,0 +1,14 @@
+{
+    "name": "WASP-12",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 2.168837,
+    "exp time [sec]": 1.9682,
+    "n observations": 54299,
+    "length of observations [day]": 1.363,
+    "photon_noise_factor_transit": 203.7821,
+    "photon_noise_factor_timeseries": 1.172,
+    "photon_noise_factor_timeseries_raw": 1.4882,
+    "average_photons_per_image": 36528.2,
+    "residual_stdev": 0.0061319,
+    "raw_stdev": 0.0077865
+}
