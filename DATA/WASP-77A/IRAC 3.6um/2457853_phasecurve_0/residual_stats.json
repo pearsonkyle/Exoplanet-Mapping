@@ -1,0 +1,14 @@
+{
+    "name": "WASP-77A",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 0.441196,
+    "exp time [sec]": 0.3936,
+    "n observations": 320255,
+    "length of observations [day]": 1.6354,
+    "photon_noise_factor_transit": 144.0918,
+    "photon_noise_factor_timeseries": 1.1779,
+    "photon_noise_factor_timeseries_raw": 2.0372,
+    "average_photons_per_image": 35209.5,
+    "residual_stdev": 0.0062776,
+    "raw_stdev": 0.0108566
+}
