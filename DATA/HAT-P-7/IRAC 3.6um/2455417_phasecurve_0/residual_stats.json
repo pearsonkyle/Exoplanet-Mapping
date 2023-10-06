@@ -1,0 +1,14 @@
+{
+    "name": "HAT-P-7",
+    "filter": "IRAC 3.6um",
+    "cadence [sec]": 2.114758,
+    "exp time [sec]": 1.9682,
+    "n observations": 105959,
+    "length of observations [day]": 2.5935,
+    "photon_noise_factor_transit": 538.4554,
+    "photon_noise_factor_timeseries": 1.1818,
+    "photon_noise_factor_timeseries_raw": 6.7096,
+    "average_photons_per_image": 75623.8,
+    "residual_stdev": 0.0042976,
+    "raw_stdev": 0.0243989
+}
