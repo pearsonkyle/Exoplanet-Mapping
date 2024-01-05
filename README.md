@@ -2,6 +2,8 @@
 
 An analysis of all publicly available images from the Spitzer Space Telescope pertaining to transiting exoplanets observed with the Infrared Array Camera (IRAC). This pipeline supports processing all 4 IRAC Channels (3.6, 4.5, 5.8, 8.0 um) and data acquired in sub-frame and full-frame mode. The NASA Exoplanet Archive and Spitzer Heritage Archive are used to dynamically populate a target list based on available data and used to acquire transit priors. Transits, eclipses and phase curves are modelled using the analytic expressions of starry. Gaussian kernel regression is used to correct for intrapixel flux variations as a result motions onboard the spacecraft. 
 
+For more information on the analysis: https://www.overleaf.com/read/fcfkxyggqjys#1b33db
+
 ![](FIGURES/phasecurves.png)
 ![](FIGURES/brightness_curves.png)
 ![](DATA/WASP-121/phasecurve_comparison_0.png)
