@@ -1386,7 +1386,7 @@ if __name__ == "__main__":
                         lon_grid = lon_grid.flatten()
                         lat_grid = lat_grid.flatten()
 
-                        # find max of map within -45, 45 long, lat
+                        # find max of map within -90 to 90
                         max_lon = np.zeros(rmaps.shape[0])
                         max_lat = np.zeros(rmaps.shape[0])
                         max_amp = np.zeros(rmaps.shape[0])
