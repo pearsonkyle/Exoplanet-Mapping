@@ -102,6 +102,7 @@ if __name__ == "__main__":
 
                 # load data
                 print(os.path.basename(obs))
+                phasecurve = lambda : None # placeholder
                 photometry = pickle.load(open(os.path.join(obs,"data.pkl"),"rb"))
 
                 # dict_keys(['hotspot_lon', 'hotspot_lat', 'hotspot_lon_std', 'hotspot_lat_std', 'hotspot_amp', 
@@ -138,8 +139,33 @@ if __name__ == "__main__":
                 ax[0, fi].grid(True, ls='--')
                 ax[1, fi].grid(True, ls='--')
 
+                # write data to disk
+                sv[f] = {
+                    'phase': photometry['aper_phase'],
+                    'detrended': photometry['aper_detrended'],
+                    'error': photometry['aper_err']/photometry['aper_flux'],
+                    'model': photometry['aper_transit'],
+                    'binned_phase': btime,
+                    'binned_flux': bflux,
+                    'binned_stds': bstds
+                }
+
+                # convert each to list
+                for k in sv[f].keys():
+                    sv[f][k] = sv[f][k].tolist()
+
+                # round each to 6 decimal places
+                for k in sv[f].keys():
+                    sv[f][k] = [round(x,6) for x in sv[f][k]]
+
         fig.suptitle(f"{args.target} b Phase Curve Comparison")
         plt.tight_layout()
         plt.savefig(os.path.join(dirs[i],f"phasecurve_comparison_{args.frame}.png"))
+        print(f"Saved {os.path.join(dirs[i],f'phasecurve_comparison_{args.frame}.png')}")
         plt.close()
 
+        # save data as json
+        json.dump(sv, open(os.path.join(dirs[i],f"phasecurve_comparison_{args.frame}.json"),"w"))
+
+
+        

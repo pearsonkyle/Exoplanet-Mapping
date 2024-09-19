@@ -424,7 +424,6 @@ class pc_fitter():
         def lc2min(pars):
             for i in range(len(pars)):
                 self.prior[freekeys[i]] = pars[i]
-            # TODO fix
             lightcurve = phasecurve(self.time, self.prior)
             detrended = self.data/lightcurve
             wf = weightedflux(detrended, self.gw, self.nearest)
@@ -1054,7 +1053,7 @@ if __name__ == "__main__":
                     # only report params with bounds, all others will be fixed to initial value
                     mybounds = {
                         'rprs':[0,1.5], # factors of rprs
-                        'dt':[-0.05,0.05],   # shift in mid-eclipse
+                        'dt':[-0.1,0.1],   # shift in mid-eclipse
                         'dtt':[-0.05, 0.05], # shift in mid-transit
                         'inc':[tpars['inc']-1.5, min(90,tpars['inc']+1.5)], # inclination
                         # spherical harmonics for map
@@ -1792,3 +1791,15 @@ if __name__ == "__main__":
                         del maps, rmaps
                     except:
                         pass
+
+                    #dict_keys(['hotspot_lon', 'hotspot_lat', 'hotspot_lon_std', 'hotspot_lat_std', 'hotspot_amp', 'hotspot_amp_std', 'coldspot_amp', 'coldspot_amp_std', 'max_amp', 'max_amp_std', 'btemp', 'btemp_std', 'ntemp', 'ntemp_std', 'aper_time', 'aper_flux', 'aper_err', 'aper_xcent', 'aper_ycent', 'aper_npp', 'aper_results', 'aper_wf', 'aper_model', 'aper_transit', 'aper_residuals', 'aper_detrended', 'aper_phase', 'aper_pars', 'aper_errs', 'aper_frames', 'exp_time', 'aor', 'lat_hist', 'lon_hist', 'aper_priors', 'aper_ramp', 'aper_emid', 'noise_factor', 'photon_noise', 'mutual_info_regression'])
+                    # save a text file with time, detrended and error
+                    # mask = sv['aper_phase'] < 0.6
+                    # data = np.array([sv['aper_time'][mask], sv['aper_detrended'][mask], sv['aper_err'][mask]/sv['aper_flux'][mask]])
+                    # np.savetxt("irac45_eclipse_1.txt", data.T, header="Time, Flux, Error")
+                    # # plot
+                    # from scipy.ndimage import uniform_filter1d
+                    # plt.plot(sv['aper_time'][mask], sv['aper_detrended'][mask], 'k.')
+                    # smooth = uniform_filter1d(sv['aper_detrended'][mask], size=1000)
+                    # plt.plot(sv['aper_time'][mask], smooth, 'r-')
+                    # plt.show()

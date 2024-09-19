@@ -11,7 +11,7 @@ For more information on the analysis: https://www.overleaf.com/read/fcfkxyggqjys
 
 ## Example Run
 ```
-python query_spitzer.py -t "WASP-121"
+python query_spitzer.py -t "WASP-1"
 python query_priors.py -t "WASP-121"
 python photometry.py -t WASP-121
 python fit_map.py -t WASP-121
